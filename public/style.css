@@ -1,0 +1,462 @@
+.divMenu {
+  margin: 50px 50px 0px 50px;
+  display: grid;
+  grid-template-columns: 75% 25%;
+  grid-template-rows: 60px;
+}
+
+.divTodasReservas {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  margin-right: 10px;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  border-radius: 10px;
+  background-color: white;
+  justify-content: center;
+}
+.divTodasReservas div {
+  margin: 10px;
+}
+.divTodasReservas div button {
+  background-color: white;
+}
+.divTodasReservas div button:hover {
+  color: #1D3161;
+  border-radius: 0px;
+  background-color: white;
+  border-bottom: 5px solid #5582EB;
+}
+
+.divPesquisa {
+  display: flex;
+  margin-left: 10px;
+  padding: 10px;
+  grid-column-start: 2;
+  grid-column-end: 2;
+  border-radius: 10px;
+  background-color: white;
+}
+.divPesquisa button {
+  margin-left: 5px;
+}
+.divPesquisa img {
+  width: 100%;
+  height: 100%;
+}
+
+.divFundo {
+  margin: 40px 50px;
+  padding: 15px 40px;
+  background-color: white;
+  max-height: calc(100% - 100px);
+  min-height: 400px;
+  border-radius: 10px;
+}
+
+.tabela {
+  width: 100%;
+}
+
+.tbody {
+  width: calc(100% - 80px);
+  height: 150px;
+}
+.tbody tr:hover {
+  border-top: #DDE4F7 1px solid;
+  border-bottom: #DDE4F7 1px solid;
+}
+
+.divSection {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.fontPrimary {
+  padding: 10px 0px;
+  font-size: 26px;
+  font-weight: 600;
+  color: #1D3161;
+}
+
+.fontSecond {
+  padding: 10px 0px 0px 0px;
+  font-size: 18px;
+  font-weight: 500;
+  color: #1D3161;
+}
+
+.divInput {
+  padding: 0px 10px;
+}
+
+.formCad {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.divBtnEnviar {
+  width: 100%;
+  margin-top: 50px;
+}
+
+.divBtnEnviar button {
+  background-color: #5582EB;
+  margin: 10px 0px;
+  color: white;
+  position: relative;
+  left: calc(100% - 70px);
+}
+
+.divQuarto {
+  margin: 20px 0px;
+  width: 70%;
+  height: 100px;
+  display: flex;
+}
+.divQuarto img {
+  width: 190px;
+  height: 100%;
+}
+.divQuarto .divDesc {
+  margin: 10px 10px;
+  width: 120px;
+  font-weight: 600;
+}
+.divQuarto .divDesc h1 {
+  color: #5582EB;
+}
+
+.hospedes {
+  color: #1D3161;
+  font-weight: 600;
+}
+
+.css-16jii0a {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.css-16jii0a .css-0 {
+  width: 45%;
+}
+
+.error {
+  color: red;
+  display: flex;
+  justify-content: center;
+}
+
+@media only screen and (min-device-width: 900px) {
+  .div {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: 100px calc(100% - 50px);
+  }
+  .divHeader {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 1;
+  }
+  .divSide {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 2;
+    grid-row-end: 2;
+  }
+  .divConteudo {
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    background-color: #F0ECFD;
+  }
+  .header {
+    height: 100px;
+    width: 100%;
+    border-bottom: solid 1px #8E98B0;
+  }
+  .logo {
+    height: 100px;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+  }
+  .logo img {
+    margin: 20px;
+    display: block;
+  }
+  .divMenu {
+    grid-template-columns: 65% 35%;
+    grid-template-rows: 60px;
+  }
+  .divTodasReservas div {
+    margin: 0px;
+  }
+  .divTodasReservas div button p {
+    font-size: 20px;
+  }
+  .divPesquisa {
+    display: flex;
+    justify-content: center;
+  }
+  .divPesquisa .div1 {
+    min-width: 100%;
+  }
+  .divPesquisa .div1 .css-1kp110w {
+    text-align: center;
+  }
+  .buttonSide {
+    padding: 10px 10px 10px 20%;
+    margin: 50px 10px 20px 0px;
+    width: calc(100% - 10px);
+    height: 50px;
+    display: flex;
+    justify-content: start;
+    font-size: 20px;
+    border-radius: 0px 15px 15px 0px;
+  }
+  .buttonSide p {
+    margin: auto 5px;
+    font-weight: 700;
+    color: #566589;
+    font-size: 20px;
+    padding-left: 10px;
+  }
+  .buttonSide img {
+    margin: auto 0px;
+    width: 25px;
+    height: 25px;
+  }
+  .buttonSide:hover {
+    background-color: #DDE4F7;
+    border-left: solid 8px #5582EB;
+  }
+  .buttonSide:hover p {
+    color: #5582EB;
+  }
+}
+@media only screen and (min-device-width: 500px) and (max-device-width: 899px) {
+  .div {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 100px calc(100% - 50px);
+  }
+  .divHeader {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 1;
+  }
+  .divConteudo {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    background-color: #F0ECFD;
+  }
+  .header {
+    height: 100px;
+    width: 100%;
+    border-bottom: solid 1px #8E98B0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .header .logo {
+    height: 100px;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    padding: 10px 20px;
+  }
+  .header .logo img {
+    width: 100%;
+    display: block;
+  }
+  .header .menuMobile {
+    width: 100px;
+    height: 70px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+  }
+  .header .menuMobile button {
+    display: flex;
+    justify-content: left;
+    width: calc(90% - 20px);
+    height: calc(90% - 20px);
+    padding: 10px 10px;
+    background-color: white;
+  }
+  .header .menuMobile button a {
+    display: flex;
+    padding: 5px;
+  }
+  .header .menuMobile button a img {
+    margin-right: 10px;
+  }
+  .header .menuMobile .css-18esm8n:hover {
+    background-color: #DDE4F7;
+  }
+  .divMenu {
+    margin: 50px 10px 0px 10px;
+    grid-template-columns: 65% 35%;
+    grid-template-rows: 60px;
+  }
+  .divFundo {
+    margin: 20px 10px;
+    padding: 10px 15px;
+    background-color: white;
+    max-height: calc(100% - 100px);
+    min-height: 400px;
+    border-radius: 10px;
+  }
+  .divTodasReservas div button p {
+    font-size: 18px;
+  }
+  .divPesquisa {
+    display: flex;
+    justify-content: center;
+  }
+  .divPesquisa .div1 {
+    min-width: 100%;
+  }
+  .divPesquisa .div1 .css-1kp110w {
+    text-align: center;
+  }
+  .divQuarto {
+    margin: 10px 0px;
+    width: 70%;
+    height: 100px;
+    display: flex;
+  }
+  .divQuarto img {
+    width: 70%;
+    height: 100%;
+  }
+  .divQuarto .divDesc {
+    margin: 10px 10px;
+    width: 120px;
+  }
+}
+@media only screen and (max-device-width: 499px) {
+  .div {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 100px calc(100% - 50px);
+  }
+  .divHeader {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 1;
+  }
+  .divConteudo {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    background-color: #F0ECFD;
+  }
+  .header {
+    height: 100px;
+    width: 100%;
+    border-bottom: solid 1px #8E98B0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .header .logo {
+    height: 100px;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    padding: 20px 20px;
+  }
+  .header .logo img {
+    width: 100%;
+    display: block;
+  }
+  .header .menuMobile {
+    width: 100px;
+    height: 70px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+  }
+  .header .menuMobile button {
+    display: flex;
+    justify-content: left;
+    width: calc(80% - 20px);
+    height: calc(80% - 20px);
+    padding: 10px 10px;
+    background-color: white;
+  }
+  .header .menuMobile button a {
+    display: flex;
+    padding: 5px;
+  }
+  .header .menuMobile button a img {
+    margin-right: 10px;
+  }
+  .header .menuMobile .css-18esm8n:hover {
+    background-color: #DDE4F7;
+  }
+  .divMenu {
+    margin: 50px 10px 0px 10px;
+    grid-template-columns: 60% 40%;
+    grid-template-rows: 60px;
+  }
+  .divFundo {
+    margin: 20px 10px;
+    padding: 10px 15px;
+    background-color: white;
+    max-height: calc(100% - 100px);
+    min-height: 400px;
+    border-radius: 10px;
+  }
+  .divTodasReservas {
+    margin-right: 0px;
+  }
+  .divTodasReservas button {
+    padding: 5px;
+  }
+  .divTodasReservas div {
+    margin: 0px;
+  }
+  .divTodasReservas div button p {
+    font-size: 14px;
+  }
+  .divPesquisa {
+    display: flex;
+    justify-content: center;
+  }
+  .divPesquisa .div1 {
+    min-width: 100%;
+  }
+  .divPesquisa .div1 .css-1kp110w {
+    padding: 0px;
+    text-align: center;
+    font-size: 12px;
+  }
+  .divQuarto {
+    margin: 10px 0px;
+    width: 70%;
+    height: 100px;
+    display: flex;
+  }
+  .divQuarto img {
+    width: 70%;
+    height: 100%;
+  }
+  .divQuarto .divDesc {
+    margin: 10px 0px;
+    width: 120px;
+  }
+}/*# sourceMappingURL=style.css.map */
