@@ -1,5 +1,5 @@
 <div>
-<h1 align="center">Teste Desenvolvedor(a) Front-end Foco Multimídia</h1>
+<h1 align="center">Sistema hoteleiro</h1>
 <p>Projeto desenvolvido em Javascript com a biblioteca React. Além desses, outras tecnologias como SCSS, Chackra, Bootstrap, Hookform e Yup foram utilizados.</p>
 
 #
